@@ -1,5 +1,7 @@
 # Linux Tweet App
 
+[![Build Status](https://app.travis-ci.com/zisuu/docker-devops-lab.svg?branch=master)](https://app.travis-ci.com/zisuu/docker-devops-lab)
+
 This is very simple NGINX website that allows a user to send a tweet. 
 
 It's mostly used as a sample application for Docker 101 workshops. 
