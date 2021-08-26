@@ -5,10 +5,10 @@ on:
   # we want pull requests so we can build(test) but not push to image registry
   pull_request:
     branches:
-      - 'main'
+      - 'master'
   push:
     branches:
-      - 'main'
+      - 'master'
   schedule:
     # re-run montly to keep image fesh with upstream base images
     - cron: '0 12 15 * *'
