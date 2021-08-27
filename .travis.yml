@@ -6,9 +6,9 @@ services:
 language: bash
 
 before_script:
-    - "docker build -t jhyyhpp/linux_tweet_app ."
+    - "docker build -t jhyyhpp/linux_tweet_app:3 ."
     #- "docker container run --detach --publish 8080:80 jhyyhpp/linux_tweet_app"
-    - "docker container run --detach jhyyhpp/linux_tweet_app"
+    - "docker container run --detach jhyyhpp/linux_tweet_app:3"
     - docker ps
 
 script:
